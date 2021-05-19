@@ -1,3 +1,15 @@
+:root{
+  --color-grey: #51565F;
+  --color-white: #F0F1F5;
+}
 body {
+  max-width:1120px;
+  max-height:auto;
+  margin-left: auto;
+  margin-right:auto;
+  display:flex;
+  flex-direction: column;
   font-family: 'Inter', sans-serif;
+  background-color: var(--color-grey);
+  color: var(--color-white);
 }
