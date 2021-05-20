@@ -9,10 +9,12 @@
     <link rel="stylesheet" href="styles/base.css" />
     <link rel="stylesheet" href="styles/title.css" />
     <link rel="stylesheet" href="styles/sub-title.css" />
+    <link rel="stylesheet" href="styles/link-media.css" />
+    <link rel="stylesheet" href="styles/socialMedia.css" />
     <link rel="stylesheet" href="styles/svg.css" />
     <link rel="stylesheet" href="styles/header.css" />
     <link rel="stylesheet" href="styles/home.css" />
-    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
     <title>Jean Santos - Developer Front-end</title>
   </head>
   <body>
@@ -25,25 +27,25 @@
       <h3 class="sub-title ">Redes Sociais</h3>
         <figure class="socialMedia">
           <a class ="link-media" href="https://github.com/jeanAt2" target="_blank">
-            <img class="svg-social-media" src="svg/social-github-outline.svg" alt="Simbolo GitHub" />
+            <i data-feather="github"></i>
             <label>Follow me on Github</label>
           <a/>
         </figure>
         <figure class="socialMedia">
           <a class ="link-media" href="https://www.linkedin.com/in/jeandossantosmd" target="_blank">
-            <img class="svg-social-media" src="svg/social-linkedin-outline.svg" alt="Simbolo Linkedin" />
+            <i data-feather="linkedin"></i>
             <label>Follow me on Linkedin</label>
           </a>
         </figure>
         <figure class="socialMedia">
           <a class ="link-media" href="https://www.instagram.com/jean.at2/" target="_blank">
-            <img class="svg-social-media" src="svg/social-instagram-outline.svg" alt="Simbolo Instagram" />
+            <i data-feather="instagram"></i>
             <label>Follow me on instagram</label>
           </a>
         </figure>
         <figure class="socialMedia">
           <a class ="link-media" href="https://www.facebook.com/jeanSantos.a2/" target="_blank">
-            <img class="svg-social-media" src="svg/social-facebook-outline.svg" alt="Simbolo Facebook" />
+            <i data-feather="facebook"></i>
             <label>Follow me on Facebook</label>
           </a>
         </figure>
@@ -77,5 +79,8 @@
         <p>Freelancer, projetos pessoais e acadêmicos.</p>
       </section>
     </sections>
+    <script>
+      feather.replace()
+    </script>
   </body>
 </html>
