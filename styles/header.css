@@ -1,3 +1,11 @@
 .header {
- display:block; 
+  width: 356px;
+}
+
+.header .fig-title {
+  font-size: 18px;
+  font-weight:600;
+  padding-top: 15px;
+  padding-bottom:10px;
+  margin-bottom: 15px;
 }
