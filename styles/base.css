@@ -2,7 +2,9 @@
   --color-grey: #51565F;
   --color-white: #F0F1F5;
 }
-body {
+.root {
+  display:flex;
+  flex-direction:column;
   max-width: 1120px;
   margin-left: auto;
   margin-right:auto;
