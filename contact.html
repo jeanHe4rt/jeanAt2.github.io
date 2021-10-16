@@ -1,83 +1,112 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
   <head>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles/reset.css" />
-    <link rel="stylesheet" href="styles/base.css" />
-    <link rel="stylesheet" href="styles/body.css" />
-    <link rel="stylesheet" href="styles/title.css" />
-    <link rel="stylesheet" href="styles/sub-title.css" />
-    <link rel="stylesheet" href="styles/about-me.css" />
-    <link rel="stylesheet" href="styles/competence.css" />
-    <link rel="stylesheet" href="styles/skills.css" />
-    <link rel="stylesheet" href="styles/link-media.css" />
-    <link rel="stylesheet" href="styles/socialMedia.css" />
-    <link rel="stylesheet" href="styles/svg.css" />
-    <link rel="stylesheet" href="styles/header.css" />
-    <link rel="stylesheet" href="styles/home.css" />
-    <link rel="stylesheet" href="styles/text.css" />
-    <link rel="stylesheet" href="styles/expertise.css" />
-    <link rel="stylesheet" href="styles/social-media-me.css" />
-    <script src="https://unpkg.com/feather-icons"></script>
-    <title>Jean Santos - Developer Front-end</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma-rtl.min.css">
+    <title>Jean.dev</title>
   </head>
-  <body class ="root">
-    <h1 class="title">Jean Santos</h1>
-    <button>Home</button> 
-    <button>Contato</button>
-    <div class="body">
-      <section class="header">
-        <figure>
-          <img src="img/profile.png" alt="Minha Foto de Perfil" />
-          <figcaption class="fig-title">Desenvolvedor Front-End</figcaption>
-        </figure>
-        <section class="social-media-me">
-          <h3 class="sub-title ">Redes Sociais</h3>
-            <figure class="socialMedia">
-              <a class ="link-media" href="https://github.com/jeanAt2" target="_blank">
-                <i data-feather="github"></i>
-                <label>Follow me on Github</label>
-              <a/>
-            </figure>
-            <figure class="socialMedia">
-              <a class ="link-media" href="https://www.linkedin.com/in/jeandossantosmd" target="_blank">
-                <i data-feather="linkedin"></i>
-                <label>Follow me on Linkedin</label>
+  <body>
+    <header>
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="https://bulma.io">
+            <img src="svg/logo.svg" width="112" height="28">
+          </a>
+          <div id="navbarBasicExample" class="navbar-menu is-active">
+            <div class="navbar-start">
+              <a class="navbar-item" href="index.html">
+                Home
               </a>
-            </figure>
-            <figure class="socialMedia">
-              <a class ="link-media" href="https://www.instagram.com/jean.at2/" target="_blank">
-                <i data-feather="instagram"></i>
-                <label>Follow me on instagram</label>
+        
+              <a class="navbar-item" href="contact.html">
+                Contato
               </a>
-            </figure>
-            <figure class="socialMedia">
-              <a class ="link-media" href="https://www.facebook.com/jeanSantos.a2/" target="_blank">
-                <i data-feather="facebook"></i>
-                <label>Follow me on Facebook</label>
-              </a>
-            </figure>
-          </section>
-      </section>
-      <form action="enviarEmail()"method="post">
-          <h2 class="sub-title">Contato</h2>
-          <label>Nome:</label> 
-          <input type="text" name="" id="name" placeholder="Nome Completo:">
-          <label>E-mail:</label> 
-          <input type="email" name="" id="email" placeholder="email@email.com">
-          <label>Título:</label>         
-          <input type="text" name="" id="titleEmail" placeholder="Título da Mensagem">
-          <label> Mensagem</label>
-          <textarea id="message" placeholder="Digite aqui sua mensagem."></textarea>
-          <button onClick=`${enviarEmail()}`>Enviar</button>
-      </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="section">
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="img/profile.png" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">Jean Carlos</p>
+                    <span class="tag is- is-dark is-medium"> 
+                      Javascript Full Stack Developer
+                    </span>
+                  </div>
+                </div>
+                <!--Informações contato  -->
+                <div class="content">
+                  <p>(51) 9-9768-1102</p>
+                  <p>jeandossanttos1@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column is-9">
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title">
+                  Contato <span class="tag is-danger">Página em contrução!</span></p>
+              </header>
+              <div class="card-content">           
+                <div class="field">
+                <div class="field">
+                  <label class="label">Email</label>
+                  <div class="control has-icons-left has-icons-right">
+                    <input class="input is-danger" type="email" placeholder="Email input">
+                    <span class="icon is-small is-left">
+                      <i class="fas fa-envelope"></i>
+                    </span>
+                    <span class="icon is-small is-right">
+                      <i class="fas fa-exclamation-triangle"></i>
+                    </span>
+                  </div>
+                  <p class="help is-danger">This email is invalid</p>
+                </div>
+                <div class="field">
+                  <label class="label">Message</label>
+                  <div class="control">
+                    <textarea class="textarea" placeholder="Textarea"></textarea>
+                  </div>
+                </div>
+                
+                <div class="field is-grouped">
+                  <div class="control">
+                    <button class="button is-primary" onclick="">Enviar</button>
+                  </div>
+                  <div class="control">
+                    <button class="button is-link is-light">Cancel</button>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+              <p>Página em contrução!</p>
+            </div>
+            <button class="modal-close is-large" aria-label="close"></button>
+          </div>
         </div>
       </div>
-    <script>
-      feather.replace()
-    </script>
+    </section>
   </body>
 </html>

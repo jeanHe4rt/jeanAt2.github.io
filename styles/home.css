@@ -1,5 +1,27 @@
-.home {
-  margin-top: 165px;
-  margin-left:90px;
-  width:640px;
+@import 'bulma/css/bulma.css';
+
+html {
+  font-size: 62.5%;
+  --background:#232526;
+  --secundary: #EBF222;
+  --terciary: #D9C043;
+  --quarta: #BFAB45;
+  --quinta: #9407F2;
+  --color-font: #747271;
+  --font-2: #62605F;
+  --font-3: #737174;
+}
+aside {
+  height: 100%;
+}
+.navbar {
+  margin-bottom: 40px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+button:nth-child(1) {
+  margin-left: 5px;
 }
