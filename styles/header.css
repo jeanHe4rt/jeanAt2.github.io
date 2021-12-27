@@ -1,0 +1,48 @@
+@import url('./root.css');
+
+.header .first-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+.header .first-header .menu .link {
+  margin-right: 45px;
+  text-decoration: none;
+  color: inherit;
+}
+.header .first-header .menu .link:last-child{
+  margin-right: 0;
+}
+
+.header .media-header {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.header .media-header .apresentation {
+  margin-top: 143px;
+}
+.header .media-header .apresentation .sub-menu{
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+.header .media-header .apresentation .sub-menu .button{
+  margin-right: 15px;
+}
+
+.header .media-header .apresentation .title-2{
+  max-width: 220px;
+  
+}
+
+.header .media-header img {
+  width: 300px;
+  height: 255px;
+  
+}

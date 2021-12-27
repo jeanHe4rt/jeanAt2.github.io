@@ -1,0 +1,17 @@
+@import url('./root.css');
+
+.main .about-me {
+  max-width:50%;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 169px;
+}
+
+.main .about-me  .title-main{
+  margin-bottom: 30px;
+}
+.main .about-me .description {
+  line-height: 3.2rem;
+}
