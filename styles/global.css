@@ -1,9 +1,21 @@
 @import url('./root.css');
 
 body {
+  background: var(--color-fourth);
+  /* overflow:hidden; */
+}
+
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+.main,.header {
   max-width: 80%;
   margin: auto;
-  background: var(--color-fourth);
 }
 .title, .title-2, .title-main {
   font-weight: 700;
