@@ -1,0 +1,16 @@
+:root {
+  --color-primary: #00DF5E;
+  --color-second: #333333;
+  --color-third: #212121;
+  --color-fourth: #171717;
+  --color-fifth: #828282;
+  --color-sixth: #F9F9F9;
+
+  width: 100vw;
+  height: auto;
+  /* display: flex; */
+  font-size:62.5%;
+  font-family: 'DM Sans', sans-serif;
+  color: var(--color-sixth) ;
+  scroll-behavior: smooth;
+}
