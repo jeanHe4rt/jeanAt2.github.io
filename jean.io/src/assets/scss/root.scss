@@ -1,0 +1,13 @@
+@import './fonts.scss';
+
+@import './colors.scss';
+
+html {
+  width: 100vw;
+  height: auto;
+  /* display: flex; */
+  font-size:62.5%;
+  font-family: 'DM Sans', sans-serif !important;
+  color: $color-sixth;
+  scroll-behavior: smooth;
+}
