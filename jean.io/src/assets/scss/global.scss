@@ -6,9 +6,10 @@
 
 body {
   background: $color-fourth;
+  max-width: 80%;
+  margin: auto;
   /* overflow:hidden; */
 }
-
 
 li {
     list-style: none;
@@ -16,10 +17,6 @@ li {
 
 a {
     text-decoration: none;
-}
-.main,.header {
-  max-width: 80%;
-  margin: auto;
 }
 .title, .title-2, .title-main {
   font-weight: 700;
