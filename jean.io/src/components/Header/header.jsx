@@ -1,6 +1,8 @@
 import React from 'react';
 import './header.scss';
 
+import ImageHome from '../../assets/svgs/Image-Home.svg'
+
 const Header = () => {
   return (
 
@@ -17,7 +19,7 @@ const Header = () => {
         </div>
 
       </div>
-      <img src="svg/Image Home.svg" alt="Imagem Home"/>
+      <img src={ImageHome} alt="Imagem Home"/>
     </div>
   );
 
