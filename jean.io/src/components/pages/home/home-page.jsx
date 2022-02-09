@@ -33,7 +33,11 @@ const Home = () => (
         <h2 class="title-2">Olá, eu sou o Jean </h2>
         <p class="description">Desenvolvedor Web & Front end</p>
         <div class="sub-menu">
-          <button class="button" onclick="location.href='https://linktr.ee/jeanat2';">Linktree</button>
+          <button 
+          class="button" 
+          onclick="location.href='https://linktr.ee/jeanat2';"
+          tooltip = "Foi mal ainda não implementei essa parte, mas daqui a pouco vou implementar ;)"
+          >Linktree</button>
           
           <div class="outlined-button">
             <a href="https://www.linkedin.com/in/jeandossantosmd/" target=" _blank" rel="noopener">LinkedIn</a>
