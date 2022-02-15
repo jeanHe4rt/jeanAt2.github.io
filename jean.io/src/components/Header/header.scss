@@ -3,17 +3,16 @@
 @import'../../assets/scss/global.scss';
 
 .media-header {
-  max-width: 100%;
+  max-width: 90%;
   display: flex;
   justify-content: space-between;
   align-items: end;
   .apresentation {
     margin-top: 143px;
-    
     .title-2{
       max-width: 220px;
     }
-
+  }
     .sub-menu{
       max-width: 100%;
       display: flex;
@@ -23,20 +22,14 @@
       .button{
         margin-right: 15px;
       }
-
-    }
-
   }
-
 }
 
-
- .media-header .apresentation 
-
- .media-header img {
-  width: 300px;
-  height: 255px;
-}
+  img {
+    width: 300px;
+    height: 255px;
+    margin-top: 143px;
+  }
 
 @media(max-width: 900px) {
   .nav-menu {
