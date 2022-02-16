@@ -1,9 +1,12 @@
 @import '../../assets/scss/reset.scss';
 
-@import'../../assets/scss/global.scss';
+@import '../../assets/scss/global.scss';
+
+@import '../../assets/scss/_variables.scss';
 
 .media-header {
-  max-width: 90%;
+  max-width: $body-default;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: end;
