@@ -1,4 +1,5 @@
 import React from 'react';
+import './../../assets/scss/global.scss';
 import './contacts.scss';
 
 import Smile from '../../assets/svgs/smile.svg';
