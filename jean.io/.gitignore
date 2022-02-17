@@ -162,7 +162,7 @@ sketch
 .sass-cache/
 *.css.map
 *.sass.map
-*.scss.map
+*.css.map
 
 ### yarn ###
 # https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored

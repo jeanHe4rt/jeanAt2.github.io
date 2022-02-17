@@ -1,0 +1,9 @@
+:root {
+  width: 100vw;
+  height: auto;
+  /* display: flex; */
+  font-size:62.5%;
+  font-family: 'DM Sans', sans-serif;
+  color: var(--color-sixth) ;
+  scroll-behavior: smooth;
+}

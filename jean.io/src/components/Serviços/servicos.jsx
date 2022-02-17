@@ -1,5 +1,5 @@
 import React from "react";
-import './servicos.scss';
+import './servicos.css';
 
 import Code from './../../assets/svgs/code.svg';
 import SmartPhone from './../../assets/svgs/smartphone.svg';

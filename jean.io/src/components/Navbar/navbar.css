@@ -1,14 +1,13 @@
-@import '../../assets/scss/reset.scss';
+@import '../../assets/css/reset.css';
 
-@import'../../assets/scss/global.scss';
+@import'../../assets/css/global.css';
 
-@import '../../assets/scss/colors.scss';
+@import '../../assets/css/colors.css';
 
-@import '../../assets/scss/_variables.scss';
-
+@import '../../assets/css/_variables.css';
 
 .navbar {
-  max-width: $body-default;
+  max-width: 80%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -27,7 +26,7 @@
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: $color-second;
+  background-color: var(--color-second);
 }
 
 .nav-menu {
@@ -43,11 +42,11 @@
 .nav-link{
   font-size: 1.6rem;
   font-weight: 400;
-  color: $color-sixth;
+  color: var(--color-sixth);
+}
 
-  &:hover{
-    color: $color-primary;
-  }
+.nav-link:hover{
+  color: var(--color-primary);
 }
 
 @media(max-width: 900px) {
@@ -74,19 +73,22 @@
 }
 
 .hamburger {
-  display: block;
-  cursor: pointer;
-  &.active .bar:nth-child(2) {
+    display: block;
+    cursor: pointer;
+}
+
+.hamburger.active .bar:nth-child(2) {
     opacity: 0;
-  }
-  &.active .bar:nth-child(1) {
+}
+
+.hamburger.active .bar:nth-child(1) {
     -webkit-transform: translateY(8px) rotate(45deg);
     transform: translateY(8px) rotate(45deg);
-  }
-  &.active .bar:nth-child(3) {
+}
+
+.hamburger.active .bar:nth-child(3) {
     -webkit-transform: translateY(-8px) rotate(-45deg);
     transform: translateY(-8px) rotate(-45deg);
-  }
 }
 
 }

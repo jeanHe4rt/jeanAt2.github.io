@@ -5,12 +5,12 @@
   justify-content: center;
   margin: auto;
   margin-top: 169px;
+}
 
-  .title-main {
-    margin-bottom: 30px;
-  }
+.about-me .title-main {
+  margin-bottom: 30px;
+}
 
-  .description {
-    line-height: 3.2rem;
-  }
+.about-me .description {
+  line-height: 3.2rem;
 }
