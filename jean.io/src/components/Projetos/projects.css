@@ -1,0 +1,108 @@
+@import '../../assets/css/global.css';
+
+@import '../../assets/css/colors.css';
+@import '../../assets/css/_variables.css';
+
+.projects {
+  display: flex;
+  /* display: flex; */
+  flex-direction: column;
+
+  max-width: 90%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 127px;
+}
+
+.projects .my-projects {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  /* adjusted */
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  margin-top: 30px;
+}
+
+.projects .my-projects .project {
+  width: 350px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  border: 1px solid var(--color-second);
+
+  background-color: var(--color-second);
+
+  padding: 20px 25px;
+}
+
+.projects .my-projects .project > img{
+  width: 350px;
+  height: 150px;
+}
+
+.projects .my-projects .project .figCaption-2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2.3rem;
+  margin-top: 23px;
+}
+
+.projects .my-projects .project .small-text-2 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+  color: var(--color-fifth);
+}
+
+@media(max-width:1360px) {
+  .projects .my-projects {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+    /* adjusted */
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    margin-top: 30px;
+  }
+
+}
+
+
+@media(max-width: 900px) {
+  .projects .my-projects {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+    /* adjusted */
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    margin-top: 30px;
+  }
+}
+
+@media(max-width: 425px) {
+
+  .projects .my-projects .project {
+    width: 175px;
+    height: 120px;
+
+  }
+
+  .projects .my-projects .project > img {
+    width: 185px;
+    height: 65px;
+  }
+
+  .projects .my-projects .project .small-text-2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    color: var(--color-fifth);
+  }
+
+
+}

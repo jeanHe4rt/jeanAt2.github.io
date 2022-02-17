@@ -1,5 +1,5 @@
 import React from 'react';
-import './skils.scss';
+import './skils.css';
 
 import Html5 from '../../assets/svgs/icomoon-free_html-five.svg';
 import CSS3 from '../../assets/svgs/fontisto_css3.svg';
