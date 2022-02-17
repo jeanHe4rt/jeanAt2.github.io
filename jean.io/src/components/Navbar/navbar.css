@@ -4,18 +4,10 @@
 
 @import '../../assets/css/colors.css';
 
-<<<<<<< HEAD:jean.io/src/components/Navbar/navbar.css
 @import '../../assets/css/_variables.css';
 
 .navbar {
   max-width: 80%;
-=======
-@import '../../assets/scss/_variables.scss';
-
-
-.navbar {
-  max-width: $body-default;
->>>>>>> c4496e2f9fe278b57b9266d82d29d286b10bb9e9:jean.io/src/components/Navbar/navbar.scss
   margin: 0 auto;
   display: flex;
   justify-content: space-between;

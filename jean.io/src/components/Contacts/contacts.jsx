@@ -1,11 +1,7 @@
 import React from 'react';
-<<<<<<< HEAD
 import './../../assets/css/global.css';
 import './contacts.css';
-=======
-import './../../assets/scss/global.scss';
-import './contacts.scss';
->>>>>>> c4496e2f9fe278b57b9266d82d29d286b10bb9e9
+
 
 import Smile from '../../assets/svgs/smile.svg';
 import Mail from '../../assets/svgs/mail.svg';

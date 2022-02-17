@@ -4,19 +4,11 @@
 
 @import './colors.css';
 
-@import './_variables.css';
+@import './_variables';
 
-
-@import './variables';
 
 body {
-<<<<<<< HEAD:jean.io/src/assets/css/global.css
   background: var(--color-fourth);
-=======
-  background: $color-fourth;
-  
-  margin: auto;
->>>>>>> c4496e2f9fe278b57b9266d82d29d286b10bb9e9:jean.io/src/assets/scss/global.scss
   /* overflow:hidden; */
 }
 
@@ -37,11 +29,11 @@ a {
 }
 
 .title {
-  font-size: $font-title;
+  font-size: 2.6rem;
   line-height: 3.3rem;
 }
 .title-2 {
-  font-size: $font-title;
+  font-size: 2.6rem;
   line-height: 4.6rem;
 }
 
@@ -59,13 +51,6 @@ a {
 .description {
   font-size: 1.8rem;
   color: var(--color-fifth);
-}
-
-.small-text {
-  font-size: 1.4rem;
-  font-weight: 400;
-  line-height: 1.8rem;
-  color: $color-fifth;
 }
 
 .button {
@@ -94,11 +79,4 @@ a {
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.8rem;
-}
-
-.small-text {
-  font-size: 1.4rem;
-  font-weight: 400;
-  line-height: 1.8rem;
-  color: var(--color-fifth);
 }
