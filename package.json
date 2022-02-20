@@ -1,11 +1,5 @@
 {
-  "name": "jeanAt2.github.io",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/jeanAt2/jeanAt2.github.io.git",
-  "author": "Jean Maidana <jean0king@gmail.com>",
-  "license": "MIT",
   "dependencies": {
-    "bulma": "^0.9.3"
+    "scss": "^0.2.4"
   }
 }

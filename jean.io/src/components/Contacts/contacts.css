@@ -1,0 +1,72 @@
+@import '../../assets/css/colors.css';
+
+.contact {
+  max-width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 85px;
+}
+
+.contact .redes-sociais {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.contact .redes-sociais .circle {
+  width: 64px;
+  height: 64px;
+  clip-path: circle(50% at 50% 50%);
+  background-color: var(--color-third);
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.contact .redes-sociais .circle > img {
+  width: 32px;
+  height: 32px;
+  margin: 0 auto;
+}
+
+.contact .redes-sociais .figCaption {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.3rem;
+  margin-top: 19px;
+  ;
+}
+
+
+@media(max-width: 800px) {
+  .contact {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+    /* adjusted */
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    margin-top: 30px;
+    justify-self: center;
+    align-self: center;
+    justify-items: center;
+  }
+}
+
+@media(max-width: 425px) {
+  .contact {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+    /* adjusted */
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    margin-top: 30px;
+    justify-self: center;
+    align-self: center;
+    justify-items: center;
+  }
+}
