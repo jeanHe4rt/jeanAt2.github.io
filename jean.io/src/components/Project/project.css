@@ -1,0 +1,56 @@
+.project {
+  width: 350px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  border: 1px solid var(--color-second);
+
+  background-color: var(--color-second);
+
+  padding: 20px 25px;
+}
+
+.projects .project > img{
+  width: 350px;
+  height: 150px;
+}
+
+.projects .project .figCaption-2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2.3rem;
+  margin-top: 23px;
+}
+
+.projects .project .small-text-2 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+  color: var(--color-fifth);
+}
+
+
+@media(max-width: 425px) {
+
+  .projects  .project {
+    width: 175px;
+    height: 120px;
+
+  }
+
+  .projects  .project > img {
+    width: 185px;
+    height: 65px;
+  }
+
+  .projects  .project .small-text-2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    color: var(--color-fifth);
+  }
+
+
+}

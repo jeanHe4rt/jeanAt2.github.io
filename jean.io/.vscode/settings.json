@@ -1,5 +1,6 @@
 {
   "conventionalCommits.scopes": [
-    "Mudando de tecnologia"
+    "Mudando de tecnologia",
+    "Refatoração de Codigo"
   ]
 }

@@ -9,20 +9,20 @@ import ReactJS from '../../assets/svgs/akar-icons_react-fill.svg';
 
 const Skils = ()=> {
   return (
-    <div class="skills" id="skills">
-    <h1 class="title-main">Minhas skills</h1>
+    <div className="skills" id="skills">
+    <h1 className="title-main">Minhas skills</h1>
 
-    <div class="list-skills">
-      <div class="card-skills">
+    <div className="list-skills">
+      <div className="card-skills">
         <img src={Html5} alt="HTML 5"/>
       </div>
-      <div class="card-skills">
+      <div className="card-skills">
         <img src={CSS3} alt="CSS3"/>
       </div>
-      <div class="card-skills">
+      <div className="card-skills">
         <img src={JavaScript} alt="JavaScript"/>
       </div>
-      <div class="card-skills">
+      <div className="card-skills">
         <img src={ReactJS} alt="ReactJS"/>
       </div>
     </div>

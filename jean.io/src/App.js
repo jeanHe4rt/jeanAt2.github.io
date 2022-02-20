@@ -9,7 +9,7 @@ import Footer from './components/Footer/footer.jsx';
 
 function App() {
   return (
-    <div className="App">
+    <div classNameName="App">
       <Navbar/>
       <Header />
       <AboutMe />

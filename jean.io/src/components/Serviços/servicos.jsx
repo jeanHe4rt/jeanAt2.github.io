@@ -9,18 +9,18 @@ import SmartPhone from './../../assets/svgs/smartphone.svg';
 
 const Services = () => {
   return (
-    <div class="services" >
-      <h1 class="title-main">Serviços</h1>
-      <div class="my-services">
-        <div class="card">
+    <div className="services" >
+      <h1 className="title-main">Serviços</h1>
+      <div className="my-services">
+        <div className="card">
           <img src={Code} alt="Code"/>
-          <p class="card-text">
+          <p className="card-text">
             Criação de Sites
           </p>
         </div>
-        <div class="card">
+        <div className="card">
           <img src={SmartPhone} alt="Code"/>
-          <p class="card-text">
+          <p className="card-text">
             Sites responsivos
           </p>
         </div>

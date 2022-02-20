@@ -2,42 +2,19 @@ import React from 'react';
 import'./projects.css';
 
 import JavaScript from '../../assets/img/javascript.png';
+import Project from '../Project/project';
 
 const Projects = () => {
   return(
-    <div class="projects">
-      <h1 class="title-main">Projetos</h1>
-      <div class="my-projects">
-        <figure class="project">
-          <img src={JavaScript} alt=""/>
-          <figcaption class="figCaption-2">Titulo do Projeto</figcaption>
-          <label class="small-text-2">Tecnologias: HTML, CSS e JS.</label>
-        </figure>
-        <figure class="project">
-          <img src={JavaScript} alt=""/>
-          <figcaption class="figCaption-2">Titulo do Projeto</figcaption>
-          <label class="small-text-2">Tecnologias: HTML, CSS e JS.</label>
-        </figure>
-        <figure class="project">
-          <img src={JavaScript} alt=""/>
-          <figcaption class="figCaption-2">Titulo do Projeto</figcaption>
-          <label class="small-text-2">Tecnologias: HTML, CSS e JS.</label>
-        </figure>
-        <figure class="project">
-          <img src={JavaScript} alt=""/>
-          <figcaption class="figCaption-2">Titulo do Projeto</figcaption>
-          <label class="small-text-2">Tecnologias: HTML, CSS e JS.</label>
-        </figure>
-        <figure class="project">
-          <img src={JavaScript} alt=""/>
-          <figcaption class="figCaption-2">Titulo do Projeto</figcaption>
-          <label class="small-text-2">Tecnologias: HTML, CSS e JS.</label>
-        </figure>
-        <figure class="project">
-          <img src={JavaScript} alt=""/>
-          <figcaption class="figCaption-2">Titulo do Projeto</figcaption>
-          <label class="small-text-2">Tecnologias: HTML, CSS e JS.</label>
-        </figure>
+    <div className="projects">
+      <h1 className="title-main">Projetos</h1>
+      <div className="my-projects">
+        <Project />
+        <Project />
+        <Project />
+        <Project />
+        <Project />
+        <Project />
       </div>
     </div>
   );
