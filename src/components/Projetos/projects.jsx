@@ -1,7 +1,6 @@
 import React from 'react';
 import'./projects.css';
 
-import JavaScript from '../../assets/img/javascript.png';
 import Project from '../Project/project';
 
 const Projects = () => {

@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b9b1c2fb.css",
+    "main.js": "/static/js/main.f4c00942.js",
+    "static/js/787.c18013a7.chunk.js": "/static/js/787.c18013a7.chunk.js",
+    "static/media/Image-Home.svg": "/static/media/Image-Home.0f2681a9b402cabab755c36dac16c71e.svg",
+    "static/media/akar-icons_react-fill.svg": "/static/media/akar-icons_react-fill.65a8ed58df2d4bf00c720e87198ea614.svg",
+    "static/media/phone.svg": "/static/media/phone.27c28d59aeb84683600a15f1d9bb92b4.svg",
+    "static/media/instagram.svg": "/static/media/instagram.46914fe07ef57da754fa1e34d69a0d03.svg",
+    "static/media/akar-icons_javascript-fill.svg": "/static/media/akar-icons_javascript-fill.ad8655173132754cbba6f74e8e4c13bb.svg",
+    "static/media/smile.svg": "/static/media/smile.88fb4f09f645448d512685c066a3d21c.svg",
+    "static/media/fontisto_css3.svg": "/static/media/fontisto_css3.e19e8424b8aa2442f78c78d94210842e.svg",
+    "index.html": "/index.html",
+    "static/media/mail.svg": "/static/media/mail.4506140af60ac30b5404147e00a88e60.svg",
+    "static/media/smartphone.svg": "/static/media/smartphone.3562deb9650f6596207b7078172a500b.svg",
+    "static/media/icomoon-free_html-five.svg": "/static/media/icomoon-free_html-five.1e2bb2bc08a55887c3412ec1bd919576.svg",
+    "static/media/code.svg": "/static/media/code.e35614b6b3097e50e8b3ede0f188d7bc.svg",
+    "main.b9b1c2fb.css.map": "/static/css/main.b9b1c2fb.css.map",
+    "main.f4c00942.js.map": "/static/js/main.f4c00942.js.map",
+    "787.c18013a7.chunk.js.map": "/static/js/787.c18013a7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9b1c2fb.css",
+    "static/js/main.f4c00942.js"
+  ]
+}
