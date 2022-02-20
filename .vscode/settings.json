@@ -2,6 +2,7 @@
   "conventionalCommits.scopes": [
     "Mudando de tecnologia",
     "Refatoração de Codigo",
-    "Nova Versão 2.0.0"
+    "Nova Versão 2.0.0",
+    "Style css"
   ]
 }

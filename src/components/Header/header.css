@@ -2,8 +2,12 @@
 .media-header {
   max-width: 80%;
   margin: 0 auto;
-  display: flex-end;
+  display: flex;
   justify-content: space-between;
+}
+
+.media-header > img {
+  margin-top: 95px;
 }
 .media-header .apresentation {
   margin-top: 143px;
