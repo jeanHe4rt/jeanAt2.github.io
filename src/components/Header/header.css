@@ -2,9 +2,8 @@
 .media-header {
   max-width: 80%;
   margin: 0 auto;
-  display: flex;
+  display: flex-end;
   justify-content: space-between;
-  align-items: end;
 }
 .media-header .apresentation {
   margin-top: 143px;
