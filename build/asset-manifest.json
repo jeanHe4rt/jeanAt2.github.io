@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b9b1c2fb.css",
-    "main.js": "/static/js/main.f4c00942.js",
+    "main.css": "/static/css/main.7d8c8a06.css",
+    "main.js": "/static/js/main.264ef2ab.js",
     "static/js/787.c18013a7.chunk.js": "/static/js/787.c18013a7.chunk.js",
     "static/media/Image-Home.svg": "/static/media/Image-Home.0f2681a9b402cabab755c36dac16c71e.svg",
     "static/media/akar-icons_react-fill.svg": "/static/media/akar-icons_react-fill.65a8ed58df2d4bf00c720e87198ea614.svg",
@@ -15,12 +15,12 @@
     "static/media/smartphone.svg": "/static/media/smartphone.3562deb9650f6596207b7078172a500b.svg",
     "static/media/icomoon-free_html-five.svg": "/static/media/icomoon-free_html-five.1e2bb2bc08a55887c3412ec1bd919576.svg",
     "static/media/code.svg": "/static/media/code.e35614b6b3097e50e8b3ede0f188d7bc.svg",
-    "main.b9b1c2fb.css.map": "/static/css/main.b9b1c2fb.css.map",
-    "main.f4c00942.js.map": "/static/js/main.f4c00942.js.map",
+    "main.7d8c8a06.css.map": "/static/css/main.7d8c8a06.css.map",
+    "main.264ef2ab.js.map": "/static/js/main.264ef2ab.js.map",
     "787.c18013a7.chunk.js.map": "/static/js/787.c18013a7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9b1c2fb.css",
-    "static/js/main.f4c00942.js"
+    "static/css/main.7d8c8a06.css",
+    "static/js/main.264ef2ab.js"
   ]
 }
